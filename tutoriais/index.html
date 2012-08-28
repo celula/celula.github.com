@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tutoriais - Célula</title>
+        <meta name="description" content="Sistema para gestão de igreja em células">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="/assets/css/libs/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="/assets/css/celula.css">
+        <link rel="stylesheet" href="/assets/css/libs/bootstrap/bootstrap-responsive.css">
+
+        <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-precomposed.png">
+    </head>
+    <body>
+        <a href="https://github.com/celula/celula"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 10000" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+
+                    <a class="brand" href="/">Célula</a>
+
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li><a href="/documentacao/"><i class="icon-book"></i> Documentação</a></li>
+                            <li class="active"><a href="/tutoriais/"><i class="icon-road"></i> Tutoriais</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-download-alt"></i> Download <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="/download/celula-0.1.0.zip">celula-0.1.0.zip</a></li>
+                                  <li><a href="/download/">Customizar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="page-header">
+                        <h1>Tutoriais</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span12">
+                    <h2>Instalação de dependências</h2>
+                </div>
+
+                <div class="span12">
+                    <div class="row">
+                        <div class="span12">
+                            <p>
+                                O <strong>Célula</strong> se apoia em diversos softwares open source e, dessa maneira, é necessário que eles estejam presentes para a utilização. As bibliotecas menores estão incluídas no <a href="/download/">download</a>.
+                            </p>
+                            <p>
+                                Softwares que não estão incluídos no <a href="/download/">download</a> e que precisam ser instalados:
+                                <ul>
+                                    <li><a href="http://www.mysql.com/" target="_blank">MySQL</a></li>
+                                    <li><a href="http://nodejs.org/" target="_blank">Node.js</a></li>
+                                    <li><a href="http://framework.zend.com/" target="_blank">Zend Framework</a></li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="span12">
+                            <div class="row">
+                                <div class="span12">
+                                    <h4>Linux Debian</h4>
+                                </div>
+
+                                <div class="span12">
+                                    <p>Esse tutorial leva em consideração a versão </p>
+                                </div>
+                            </div>
+                        </div><!-- instalação no ubuntu -->
+
+                        <div class="span12">
+                            <div class="row">
+                                <div class="span12">
+                                    <h4>Linux Ubuntu</h4>
+                                </div>
+
+                                <div class="span12">
+                                    <p>Esse tutorial leva em consideração a versão </p>
+                                </div>
+                            </div>
+                        </div><!-- instalação no ubuntu -->
+                        
+                        <div class="span12">
+                            <div class="row">
+                                <div class="span12">
+                                    <h4>Mac OS X</h4>
+                                </div>
+
+                                <div class="span12">
+                                    <p>Esse tutorial leva em consideração a versão </p>
+                                </div>
+                            </div>
+                        </div><!-- instalação no mac os x -->
+
+                        <div class="span12">
+                            <div class="row">
+                                <div class="span12">
+                                    <h4>Windows 7</h4>
+                                </div>
+
+                                <div class="span12">
+                                    <p>Esse tutorial leva em consideração a versão </p>
+                                </div>
+                            </div>
+                        </div><!-- instalação no windows -->
+                        
+
+                    </div>
+                </div>
+            </div><!-- tutorial 1 -->
+
+            <div class="row">
+                <div class="span12">
+                    <h2>Implementação na Amazon EC2</h2>
+                </div>
+
+                <div class="span12">
+                    <div class="row">
+                        <div class="span12">
+                            <p>Caso não possua um servidor dedicado, a <a href="http://aws.amazon.com/">Amazon Web Services</a> oferece servidores virtuais na nuvem a um bom custo-benefício. Esse tutorial assume que você possui uma conta <abbr title="Amazon Web Services">AWS</abbr> ativa.</p>
+                        </div>
+
+                        <div class="span12">
+                            <h4>1. Criação de uma instância EC2</h4>
+                        </div>
+
+                        <div class="span12">
+                            <h4>2. Passo 2</h4>
+                        </div>
+
+                        <div class="span12">
+                            <h4>3. Passo 3</h4>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- tutorial 2-->
+
+            
+            
+            <footer>
+                <ul>
+                    <li>Copyright 2012 
+                        <a href="http://twitter.com/andrehigher">André</a>
+                         & 
+                        <a href="http://twitter.com/fabriciotav">Fabrício</a>
+                    </li>
+                </ul>
+                <ul class="lesser">
+                    <li><a href="/documentacao/"><span>Documentação</span></a></li>
+                    <li><a href="/tutoriais/"><span>Tutorial</span></a></li>
+                    <li><a href="/download/"><span>Download</span></a></li>
+                </ul>
+                <p>
+                    Lançado sob a <a href="http://opensource.org/licenses/BSD-3-Clause" target="_blank">licensa BSD</a>.
+                </p>
+            </footer>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/libs/jquery/jquery-1.8.0.min.js"><\/script>')</script>
+
+        <script src="/assets/js/libs/bootstrap/bootstrap.min.js"></script>
+        <script src="/assets/js/celula.js"></script>
+    </body>
+</html>
